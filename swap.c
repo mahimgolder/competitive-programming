@@ -8,13 +8,13 @@ int main(){
 
     printf("\n\nYour inputed Value is: %d %d \n", q, r);
 
-    //LOGIC -- using Tenporary variable
+    //LOGIC -- using Temporary variable
     t = r;
     r = q;
     q = t;
     printf("The result is: %d %d\n", q, r);
 
-    // without temp
+    
 
 
 
